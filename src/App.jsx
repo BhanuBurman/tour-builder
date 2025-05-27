@@ -2,7 +2,7 @@ import HeroSection from './components/HeroSection';
 import TourCarousel from './components/TourCarousel';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import BuildTour from './pages/BuildTour';
-import Navbar from './components/NavBar';
+import Navbar from './components/Navbar';
 import EditImage from './pages/EditImage';
 
 
