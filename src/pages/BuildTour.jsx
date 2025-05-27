@@ -182,12 +182,12 @@ const BuildTour = () => {
           />
 
           {formData.imagePreview && (
-            <div className="text-sm text-gray-500 mt-2 flex items-center gap-6">
-              <img
+            <div className="text-sm  mt-2 flex items-center gap-6">
+              {/* <img
                 src={formData.imagePreview}
                 alt="Preview"
                 className="w-32 h-32 object-cover mt-2 rounded-md"
-              />
+              /> */}
               <button
                 className="bg-green-500 p-3 h-10 w-20 rounded-md text-white text-2xl flex items-center justify-center"
                 type="button"

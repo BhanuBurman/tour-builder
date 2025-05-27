@@ -87,7 +87,7 @@ const TourCarousel = ({ phaseList, onClose }) => {
                   transition={{ type: "smooth" }}
                   className="bg-white p-4 rounded-lg shadow-xl h-full flex flex-col justify-start"
                 >
-                  <h3 className="text-xl font-semibold mb-2">
+                  <h3 className="text-xl font-semibold mb-2 w-full text-center">
                     {steps[currentIndex].title}
                   </h3>
                   <div className="relative w-full flex justify-center items-center">
@@ -121,7 +121,7 @@ const TourCarousel = ({ phaseList, onClose }) => {
                       </div>
                     ))}
                   </div>
-                  <p className="text-gray-600 bg-gray-200 p-3 rounded-md">
+                  <p className="text-gray-600 bg-gray-200 p-3 rounded-md overflow-y-scroll">
                     {steps[currentIndex].description}
                   </p>
                 </motion.div>

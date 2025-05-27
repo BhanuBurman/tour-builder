@@ -3,6 +3,9 @@ import {  useNavigate } from "react-router-dom";
 import bgImg from "../assets/bg-img.png";
 import { useState } from "react";
 import TourCarousel from "./TourCarousel";
+import demo1 from "../assets/demo-1.png";
+import demo2 from "../assets/demo-2.png";
+import demo3 from "../assets/demo-3.png";
 
 export default function HeroSection() {
   const navigate = useNavigate();
@@ -10,31 +13,22 @@ export default function HeroSection() {
 
   const selfDemoList = [
   {
-    title: "Eiffel Tower Experience",
-    image: "https://source.unsplash.com/800x600/?eiffel-tower,paris",
-    description: "Witness the breathtaking view of Paris from the top of the iconic Eiffel Tower. Ideal for romantic getaways and historical insights.",
+    title: "Start from Landing Page",
+    image: demo1,
+    description: "Kick off your journey on the Landing Page. Just click on the 'Build Tour' button to begin crafting a personalized product tour that sets the tone for an interactive user experience."
   },
   {
-    title: "Safari Adventure in Kenya",
-    image: "https://source.unsplash.com/800x600/?safari,kenya",
-    description: "Explore the wild savannas of Kenya and get up close with majestic lions, elephants, and more during a guided safari adventure.",
+    title: "Create a tour",
+    image: demo2,
+    description: "Welcome to the Editor Page — the heart of your tour-building experience. Here, you can manage and organize all your steps with precision and ease. Use the step editor to input titles, descriptions, and visuals for each phase of your product journey. Create impactful, guided walkthroughs to elevate user onboarding. Easily review, reorder, or delete any of your added steps in the Phase List. This gives you full control over the flow and structure of the user tour you're building."
   },
   {
-    title: "Japanese Cherry Blossom Tour",
-    image: "https://source.unsplash.com/800x600/?cherry-blossom,japan",
-    description: "Visit Japan in the spring to witness the enchanting cherry blossoms in full bloom across Tokyo, Kyoto, and more.",
-  },
-  {
-    title: "Northern Lights in Iceland",
-    image: "https://source.unsplash.com/800x600/?northern-lights,iceland",
-    description: "Experience the magic of the Aurora Borealis in Iceland, a once-in-a-lifetime light show in the Arctic skies.",
-  },
-  {
-    title: "Santorini Sunset Escape",
-    image: "https://source.unsplash.com/800x600/?santorini,greece",
-    description: "Relax on the whitewashed cliffs of Santorini while enjoying a mesmerizing Aegean sunset and authentic Mediterranean cuisine.",
-  },
-];
+    title: "Add Tool tip",
+    image: demo3,
+    description: "Highlight key UI elements using intuitive tooltips. Guide users contextually with helpful overlays to ensure they never miss a critical feature."
+  }
+]
+
 
   return (
     <div className="w-full h-screen flex items-center justify-between bg-gray-100 relative overflow-hidden pl-20">
